@@ -1,0 +1,111 @@
+@include for-tablet {
+  .section-product_creation {
+    margin-top: 50px;
+
+    .product_creation_head {
+      .decor_line {
+        margin: 10px auto;
+      }
+    }
+
+    .product_creation_nav_list {
+      margin: 30px 0 30px 0px;
+    }
+
+    li {
+      font-size: $font_sm_2;
+      margin-right: 20px;
+    }
+
+    .product_creation_main {
+      justify-content: center;
+
+      .product_creation_item {
+        background-color: $secondary_color;
+        box-shadow: 0 0 5px 1px;
+        margin: 5px;
+        border: 2px solid transparent;
+
+        &:hover {
+          border-color: $first_color;
+        }
+
+        & img {
+          width: 150px;
+          height: 150px;
+        }
+      }
+    }
+  }
+}
+
+@include for-phone {
+  .section-product_creation {
+    max-width: 480px;
+    background-image: url(../img/backgrounds/background-illustration.jpg);
+    margin: 25px 0 0 0;
+
+    .product_creation_head h2 {
+      font-family: "Open Sans - Extrabold";
+      color: $main_bg_2;
+      font-size: $font_md;
+      font-style: inherit;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.38px;
+      margin: 40px 0 20px 0;
+    }
+
+    .product_creation_head p {
+      font-family: "Open Sans";
+      max-width: 80%;
+      color: $main_bg_2;
+      font-size: $font_sm_1;
+      line-height: 20px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .product_creation_head .decor_line {
+      margin: 10px auto;
+    }
+
+    .product_creation_nav {
+      align-items: center;
+    }
+
+    .product_creation_nav_list {
+      text-align: center;
+      margin: 20px auto 50px;
+    }
+
+    li {
+      font-family: "Open Sans - Semibold";
+      list-style-type: none;
+      display: block;
+      color: $main_bg_2;
+      font-size: $font_sm_3;
+      text-transform: uppercase;
+      margin: 0 0 25px 0;
+      letter-spacing: 0.22px;
+      transition: 0.5s;
+    }
+
+    li:last-child {
+      margin-bottom: 0;
+    }
+
+    .product_creation_nav_list li:hover {
+      border-radius: 5px;
+      cursor: auto;
+      color: $fourth_color;
+      box-shadow: 0 0 20px 2px $fourth_color;
+    }
+    .product_creation_main {
+      display: none;
+    }
+  }
+}
+
+@include for-phone-only {
+}

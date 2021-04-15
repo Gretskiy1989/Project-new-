@@ -1,0 +1,93 @@
+.section-touch {
+  margin: 100px 0 0 0;
+
+  .touch_haed {
+    h2 {
+      color: $secondary_color;
+      font-family: "Open Sans";
+      font-size: $font_xlg;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.38px;
+      margin-bottom: 40px;
+    }
+
+    p {
+      max-width: 700px;
+      color: $secondary_color;
+      font-family: "Open Sans";
+      font-size: $font_sm_2;
+      font-weight: 400;
+      line-height: 28px;
+    }
+
+    .decor_line {
+      margin: 55px 0 75px 0;
+    }
+  }
+
+  .subscription_info {
+    display: flex;
+  }
+
+  .subscription_info_left {
+    width: 50%;
+  }
+
+  .subscription_info_right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .input_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 111%;
+
+    .input-1 {
+      @extend %message-input;
+      width: 41%;
+      padding: 25px 0 25px 35px;
+    }
+
+    .input-2 {
+      @extend %message-input;
+      width: 41%;
+      padding: 25px 0 25px 35px;
+    }
+  }
+
+  .input-3 {
+    @extend %message-input;
+    width: 100%;
+    margin-top: 45px;
+    padding: 25px 35px 155px 35px;
+    resize: none;
+  }
+
+  .contact-info {
+    background: $secondary_color;
+  }
+
+  .contact-info {
+    h3 {
+      color: $fifth_color;
+      font-family: "Open Sans";
+      font-weight: 600;
+      font-size: $font_sm_3;
+      text-transform: uppercase;
+      margin: 0 auto;
+      padding: 130px 0 20px 90px;
+    }
+
+    p {
+      width: 90%;
+      color: $fifth_color;
+      font-family: "Open Sans";
+      font-size: $font_sm_2;
+      line-height: 40px;
+      padding: 0 0 0 90px;
+    }
+  }
+}

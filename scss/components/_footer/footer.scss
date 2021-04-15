@@ -1,0 +1,31 @@
+footer {
+  max-width: 100%;
+  background-color: $footer_bg;
+  margin-top: 90px;
+  padding: 50px 0 50px 0;
+
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .footer_menu {
+      display: flex;
+      margin-right: 140px;
+
+      li {
+        margin-right: 15px;
+      }
+
+      li:last-child {
+        margin: 0;
+      }
+    }
+
+    p {
+      color: $fifth_color;
+      font-family: "Open Sans";
+      font-size: $font_sm_2;
+      padding-top: 10px;
+    }
+  }
+}

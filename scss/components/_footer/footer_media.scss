@@ -1,0 +1,41 @@
+@include for-tablet {
+  footer {
+    margin-top: 30px;
+    padding: 30px 0;
+
+    .footer-wrapper {
+      flex-direction: column-reverse;
+      align-items: center;
+
+      .footer_menu {
+        margin: 10px auto;
+      }
+
+      p {
+        font-size: $font_sm_1;
+      }
+    }
+  }
+}
+
+@include for-phone {
+  footer {
+    margin-top: 15px;
+    padding: 20px 0;
+
+    .footer-wrapper {
+      flex-direction: column-reverse;
+      align-items: center;
+
+      .footer_menu {
+        margin: 5px auto;
+      }
+      p {
+        font-size: $font_minimal;
+      }
+    }
+  }
+}
+
+@include for-phone-only {
+}

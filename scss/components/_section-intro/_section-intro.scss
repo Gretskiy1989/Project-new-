@@ -1,0 +1,60 @@
+.section-intro {
+  background-color: $main_bg_2;
+  min-height: 100%;
+  overflow: hidden;
+  padding: 100px 0 100px 0;
+
+  .intro {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  _text,
+  _video {
+    width: 50%;
+  }
+
+  h1 {
+    font-family: "Open Sans - Extrabold";
+    font-size: $font-hight;
+    color: $secondary_color;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 3px;
+    margin: 0 0 25px 0;
+  }
+
+  p {
+    font-family: "Open Sans";
+    color: $third_color;
+    font-size: $font_sm_2;
+    line-height: 28px;
+    margin: 0 0 50px 0;
+    max-width: 75%;
+  }
+
+  .info_link {
+    background-color: $fourth_color;
+  }
+
+  a {
+    color: $first_color;
+    border-radius: 5px;
+  }
+
+  .info_link:hover a {
+    background-color: $secondary_color;
+    color: $fourth_color;
+  }
+
+  .intro_video {
+    padding: 15px 0 0 0;
+  }
+
+  iframe {
+    width: 560px;
+    height: 340px;
+    box-shadow: 0 0 40px 1px;
+  }
+}

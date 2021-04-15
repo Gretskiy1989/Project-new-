@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+/*Рамки страницы*/
+.container {
+  max-width: 1249px;
+  margin: 0 auto;
+}
+
+/*Декоративная строка*/
+.decor_line {
+  width: 132px;
+  height: 3px;
+  background-color: $fourth_color;
+}

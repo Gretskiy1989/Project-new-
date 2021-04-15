@@ -1,0 +1,76 @@
+.section-subscription {
+  margin-top: 100px;
+  padding: 150px 0 140px 0;
+  min-height: 100%;
+  overflow: hidden;
+  opacity: 0.9;
+  background-image: url(../img/backgrounds/abstraction.jpg);
+
+  .subscription h2 {
+    font-family: "Open Sans";
+    font-size: $font_xlg;
+    color: $first_color;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 1.05px;
+  }
+
+  .subscription p {
+    padding: 40px 0px 60px 0px;
+    color: $first_color;
+    font-family: "Open Sans";
+    font-size: $font_sm_2;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .subscription_form {
+    display: flex;
+    justify-content: center;
+  }
+
+  .subscription_input {
+    min-width: 40%;
+    color: $third_color;
+    font-family: "Open Sans";
+    font-size: $font_sm_2;
+    letter-spacing: 0.4px;
+    border: none;
+    background-color: $first_color;
+    border: none;
+    margin: 0px 20px;
+    padding: 20px 0 20px 38px;
+    border-radius: 5px;
+    border: 1px solid;
+  }
+
+  .subscription_input:hover {
+    color: black;
+    background-color: $first_color;
+    box-shadow: inset 0 0 30px 3px black;
+    border: 1px solid $first_color;
+  }
+
+  .subscription_submit {
+    padding: 0 50px;
+    background-color: $fourth_color;
+    border: none;
+    border-radius: 5px;
+    color: $first_color;
+    font-family: "Open Sans";
+    font-size: $font_sm_3;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.32px;
+    transition: 0.3s;
+  }
+
+  .subscription_submit:hover {
+    color: $fourth_color;
+    background-color: $first_color;
+    box-shadow: inset 0 0 30px 3px black;
+    border: 3px solid $first_color;
+  }
+}

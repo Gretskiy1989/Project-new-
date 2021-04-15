@@ -1,0 +1,41 @@
+.header {
+  margin: 30px auto 0;
+  max-width: 1249px;
+  background-color: $first_color;
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $header_bg;
+    color: $fifth_color;
+  }
+
+  ul {
+    display: flex;
+    padding: 40px 0;
+  }
+
+  li {
+    display: inline-block;
+    list-style: none;
+  }
+
+  a {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: $font_sm_1;
+    color: $first_color;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    padding: 39px 25px 38px;
+  }
+
+  li:hover a {
+    background-color: $fourth_color;
+    color: $first_color;
+    transition: all 0.5s ease;
+    box-shadow: 1px 5px 15px -5px black;
+  }
+}

@@ -1,0 +1,168 @@
+@include for-tablet {
+  .section-touch {
+    margin: 50px 0 0 0;
+
+    .touch_haed {
+      align-items: center;
+      text-align: center;
+
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      p {
+        max-width: 75%;
+        text-align: center;
+        line-height: 23px;
+        margin: 0 auto;
+      }
+
+      .decor_line {
+        margin: 25px auto;
+      }
+    }
+
+    .subscription_info {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      margin-top: 30px;
+
+      .subscription_info_left {
+        margin-top: 20px;
+        width: 55%;
+
+        .input_wrapper {
+          display: block;
+          width: 90%;
+
+          .input-1 {
+            color: $secondary_color;
+            background-color: $fifth_color;
+            font-family: "Open Sans";
+            font-size: $font_sm_1;
+            letter-spacing: 0.4px;
+            border: none;
+            border-radius: 8px;
+            width: 100%;
+            padding: 25px 0 25px 35px;
+            margin-bottom: 10px;
+          }
+
+          .input-2 {
+            color: $secondary_color;
+            background-color: $fifth_color;
+            font-family: "Open Sans";
+            font-size: $font_sm_1;
+            letter-spacing: 0.4px;
+            border: none;
+            border-radius: 8px;
+            width: 100%;
+            padding: 25px 0 25px 35px;
+          }
+        }
+
+        .input-3 {
+          color: $secondary_color;
+          background-color: $fifth_color;
+          font-family: "Open Sans";
+          font-size: $font_sm_1;
+          letter-spacing: 0.4px;
+          border: none;
+          border-radius: 8px;
+          width: 80%;
+          margin-top: 10px;
+          padding: 25px 35px 100px 35px;
+          resize: none;
+        }
+      }
+
+      .message {
+        margin-top: 20px;
+        width: 100%;
+
+        .button {
+          font-size: $font_sm_1;
+        }
+      }
+    }
+
+    .subscription_info_right {
+      width: 100%;
+      flex-direction: column;
+
+      .contact-info {
+        text-align: center;
+
+        h3 {
+          padding: 20px 0 10px 0;
+        }
+
+        p {
+          width: 100%;
+          font-size: $font_sm_1;
+          line-height: 18px;
+          padding: unset;
+        }
+
+        p:last-child {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+
+@include for-phone {
+  .section-touch {
+    margin: 25px 0 0 0;
+
+    .touch_haed {
+      h2 {
+        font-size: $font_md;
+      }
+
+      p {
+        max-width: 80%;
+        font-size: $font_sm_1;
+        line-height: 14px;
+      }
+
+      .decor_line {
+        margin: 15px auto;
+      }
+    }
+
+    .subscription_info {
+      margin-top: 10px;
+
+      .subscription_info_left {
+        .input_wrapper {
+          .input-1 {
+            padding: 15px 0 15px 25px;
+            margin-bottom: 10px;
+          }
+          .input-2 {
+            padding: 15px 0 15px 25px;
+          }
+        }
+        .input-3 {
+          width: 70%;
+          padding: 15px 45px 80px 25px;
+        }
+      }
+    }
+
+    .subscription_info_right {
+      .contact-info {
+        p {
+          font-size: $font_minimal;
+          line-height: 14px;
+        }
+      }
+    }
+  }
+}
+
+@include for-phone-only {
+}

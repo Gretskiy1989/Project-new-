@@ -1,0 +1,143 @@
+.section-our_team {
+  min-height: 100%;
+  overflow: hidden;
+  margin-top: 100px;
+
+  h2 {
+    color: $secondary_color;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: $font_xlg;
+    text-transform: uppercase;
+    letter-spacing: 0.38px;
+    margin: 0px 0px 30px 0px;
+  }
+
+  p {
+    max-width: 445px;
+    color: $secondary_color;
+    font-family: "Open Sans";
+    font-size: $font_sm_2;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .decor_line {
+    margin: 40px 0 50px 0;
+  }
+
+  .our_team_body {
+    display: flex;
+    margin-top: 70px;
+  }
+
+  .our_team_body_item_left {
+    width: 25%;
+    height: 460px;
+    cursor: pointer;
+    background-image: url(../img/backgrounds/fireplace.UrRtN.jpg);
+  }
+
+  .our_team_body_item_right {
+    width: 75%;
+    padding-left: 75px;
+
+    h3 {
+      color: $secondary_color;
+      font-family: "Open Sans - Semibold";
+      font-size: 30px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.28px;
+      margin: 0px 0px 35px 0px;
+    }
+
+    p {
+      max-width: 650px;
+      color: $third_color;
+      font-family: "Open Sans";
+      font-size: $font_sm_2;
+      font-weight: 400;
+      line-height: 28px;
+    }
+  }
+
+  .our_team_body_item_right_text_list {
+    display: flex;
+    margin: 40px 0 50px 0;
+
+    li {
+      color: $third_color;
+      font-family: "Open Sans";
+      font-size: $font_sm_3;
+      line-height: 24px;
+      letter-spacing: 0.9px;
+      list-style-type: none;
+      font-style: italic;
+      margin-right: 30px;
+    }
+
+    li:last-child {
+      margin: 0;
+    }
+  }
+
+  .right_colum {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+
+    .right_colum_box_top {
+      background-image: url(../img/backgrounds/klD.jpg);
+      width: 25%;
+      height: 225px;
+      margin: 0px 15px 0px 0px;
+      cursor: pointer;
+
+      &:last-child {
+        margin: 0px;
+      }
+
+      .box_1 {
+        position: absolute;
+        top: 188px;
+        width: 210px;
+        height: 40px;
+        background-color: $third_color;
+        opacity: 0.7;
+        transition: 0.5s;
+      }
+
+      .box_1:hover {
+        background-color: $secondary_color;
+      }
+
+      .box {
+        position: absolute;
+        display: none;
+        top: 188px;
+        width: 210px;
+        height: 40px;
+        background-color: $third_color;
+        opacity: 0.7;
+        transition: all 5s;
+      }
+
+      .box:hover {
+        background-color: $secondary_color;
+        display: block;
+      }
+
+      p {
+        color: $first_color;
+        font-family: "Open Sans - Semibold";
+        font-size: $font_sm_3;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.17px;
+        margin: 5px auto;
+      }
+    }
+  }
+}

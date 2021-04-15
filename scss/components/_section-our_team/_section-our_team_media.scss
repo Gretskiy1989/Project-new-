@@ -1,0 +1,158 @@
+@include for-tablet {
+  .section-our_team {
+    margin-top: 50px;
+
+    .our_team_head {
+      align-items: center;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    p {
+      max-width: 70%;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .decor_line {
+      margin: 20px auto;
+    }
+
+    .our_team_body {
+      display: flex;
+      margin-top: 30px;
+    }
+
+    .our_team_body_item_left {
+      display: none;
+    }
+
+    .our_team_body_item_right {
+      align-items: center;
+      padding-left: 90px;
+
+      p {
+        font-size: $font_sm_1;
+        line-height: 16px;
+      }
+
+      .our_team_body_item_right_text {
+        text-align: center;
+
+        h3 {
+          margin-bottom: 20px;
+        }
+      }
+
+      .our_team_body_item_right_text_list {
+        display: flex;
+        justify-content: center;
+        margin: 20px auto;
+      }
+
+      .right_colum {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .right_colum_box_top {
+          width: 50%;
+          height: 250px;
+          margin: 0 auto;
+          margin-bottom: 10px;
+
+          .box_1 {
+            display: none;
+          }
+
+          .box {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include for-phone {
+  .section-our_team {
+    margin-top: 25px;
+
+    .our_team_head {
+      align-items: center;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: $font_sm_1;
+      line-height: 18px;
+      max-width: 70%;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .decor_line {
+      margin: 20px auto;
+    }
+
+    .our_team_body {
+      display: flex;
+      margin-top: 30px;
+    }
+
+    .our_team_body_item_left {
+      display: none;
+    }
+
+    .our_team_body_item_right {
+      align-items: center;
+      padding-left: 60px;
+
+      .our_team_body_item_right_text {
+        text-align: center;
+
+        h3 {
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: $font_sm_1;
+          line-height: 18px;
+        }
+      }
+
+      .our_team_body_item_right_text_list {
+        display: flex;
+        justify-content: center;
+        margin: 20px auto;
+      }
+
+      .right_colum {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .right_colum_box_top {
+          width: 75%;
+          height: 200px;
+          margin: 0 auto;
+          margin-bottom: 10px;
+
+          .box_1 {
+            display: none;
+          }
+
+          .box {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

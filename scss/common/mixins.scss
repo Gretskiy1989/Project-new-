@@ -1,0 +1,18 @@
+/* mixin for adaptation */
+@mixin for-tablet {
+  @media (max-width: $breakpoint-md) {
+    @content;
+  }
+}
+
+@mixin for-phone {
+  @media (max-width: $breakpoint-sm) {
+    @content;
+  }
+}
+
+@mixin for-phone-only {
+  @media (max-width: $breakpoint-extra-sm) {
+    @content;
+  }
+}

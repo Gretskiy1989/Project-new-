@@ -1,0 +1,54 @@
+@include for-tablet {
+  .section-intro {
+    background-image: url(../img/backgrounds/4708354.jpg);
+    min-height: 500px;
+
+    padding: 50px 0 30px 0;
+
+    .intro {
+      display: block;
+      align-items: center;
+      text-align: center;
+
+      h1 {
+        color: $third_color;
+      }
+
+      p {
+        max-width: 75%;
+        text-transform: uppercase;
+        margin: 0 auto;
+      }
+
+      iframe {
+        width: 500px;
+        height: 340px;
+        margin: 0 auto;
+      }
+
+      .info_link {
+        width: 40%;
+        margin: 40px auto;
+      }
+    }
+  }
+}
+
+@include for-phone {
+  .section-intro {
+    min-height: 400px;
+
+    .intro h1 {
+      font-size: $font_xlg;
+      line-height: 42px;
+      letter-spacing: 2px;
+      margin: 0 0 20px 0;
+    }
+
+    .intro {
+      iframe {
+        display: none;
+      }
+    }
+  }
+}

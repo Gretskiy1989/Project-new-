@@ -1,0 +1,132 @@
+@include for-tablet {
+  .section-opportunity {
+    margin: 50px 0 0 0;
+  }
+
+  .rectangle_line {
+    width: 768px;
+    height: 2px;
+    background-color: $fifth_color;
+    margin-top: 10px;
+  }
+
+  .opportunity_colum {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  .opportunity_colum_text {
+    width: 100%;
+
+    h2 {
+      max-width: 100%;
+    }
+
+    p {
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .info_link {
+      width: 40%;
+      margin: 30px auto 50px;
+    }
+  }
+
+  .opportunity_colum_grid {
+    flex-direction: column;
+    width: 100%;
+
+    .opportunity_colum_item {
+      width: 100%;
+      display: flex;
+      padding-left: 30px;
+
+      img {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+      }
+
+      h4 {
+        font-size: $font_sm_3;
+        text-align: left;
+        margin: 0 0 10px 0;
+      }
+
+      p {
+        width: 90%;
+        text-align: left;
+        font-size: $font_sm_1;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+@include for-phone {
+  .section-opportunity {
+    margin: 25px 0 0 0;
+  }
+
+  .rectangle_line {
+    width: 480px;
+    height: 2px;
+    background-color: $fifth_color;
+    margin-top: 10px;
+  }
+
+  .opportunity_colum_text {
+    h2 {
+      font-size: $font_md;
+      margin-bottom: 15px;
+    }
+
+    p {
+      width: 70%;
+      font-size: $font_sm_1;
+      line-height: 20px;
+    }
+
+    .info_link {
+      width: 30%;
+      margin: 20px auto 40px;
+
+      a {
+        padding: 10px 0;
+      }
+    }
+  }
+
+  .opportunity_colum_grid {
+    flex-direction: column;
+    width: 100%;
+
+    .opportunity_colum_item {
+      width: 100%;
+      display: flex;
+      padding-left: 40px;
+
+      img {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+      }
+
+      h4 {
+        font-size: $font_sm_3;
+        text-align: left;
+        margin: 0 0 10px 0;
+      }
+
+      p {
+        width: 70%;
+        text-align: left;
+        font-size: $font_sm_1;
+        line-height: 20px;
+      }
+    }
+  }
+}
