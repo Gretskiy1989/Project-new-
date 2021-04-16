@@ -161,6 +161,7 @@ body {
 /*Рамки страницы*/
 .container {
   max-width: 1249px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -197,7 +198,7 @@ body {
   width: 111%;
 }
 .message .button {
-  width: 100%;
+  width: 90%;
   background-color: #ff2d2d;
   color: #ffffff;
   font-family: "Open Sans";
@@ -217,9 +218,9 @@ body {
 }
 
 .header {
+  background-color: #f6f2f2;
   margin: 30px auto 0;
   max-width: 1249px;
-  background-color: #ffffff;
 }
 .header .nav {
   display: flex;
@@ -291,10 +292,6 @@ body {
 .section-intro .intro {
   display: flex;
   justify-content: space-between;
-}
-.section-intro _text,
-.section-intro _video {
-  width: 50%;
 }
 .section-intro h1 {
   font-family: "Open Sans - Extrabold";
@@ -458,7 +455,7 @@ body {
   }
 
   .rectangle_line {
-    width: 768px;
+    width: 100%;
     height: 2px;
     background-color: #e5e5e5;
     margin-top: 10px;
@@ -518,7 +515,7 @@ body {
   }
 
   .rectangle_line {
-    width: 480px;
+    width: 100%;
     height: 2px;
     background-color: #e5e5e5;
     margin-top: 10px;
@@ -884,6 +881,7 @@ body {
     display: none;
   }
   .section-our_team .our_team_body_item_right {
+    width: 85%;
     align-items: center;
     padding-left: 90px;
   }
@@ -1209,11 +1207,10 @@ body {
   }
   .section-touch .subscription_info .subscription_info_left {
     margin-top: 20px;
-    width: 55%;
+    width: 70%;
   }
   .section-touch .subscription_info .subscription_info_left .input_wrapper {
     display: block;
-    width: 90%;
   }
   .section-touch .subscription_info .subscription_info_left .input_wrapper .input-1 {
     color: #2c2c2c;
@@ -1246,14 +1243,12 @@ body {
     letter-spacing: 0.4px;
     border: none;
     border-radius: 8px;
-    width: 80%;
     margin-top: 10px;
     padding: 25px 35px 100px 35px;
     resize: none;
   }
   .section-touch .subscription_info .message {
     margin-top: 20px;
-    width: 100%;
   }
   .section-touch .subscription_info .message .button {
     font-size: 14px;
@@ -1304,7 +1299,6 @@ body {
     padding: 15px 0 15px 25px;
   }
   .section-touch .subscription_info .subscription_info_left .input-3 {
-    width: 70%;
     padding: 15px 45px 80px 25px;
   }
   .section-touch .subscription_info_right .contact-info p {

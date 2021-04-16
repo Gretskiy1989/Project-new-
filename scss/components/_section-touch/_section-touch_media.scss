@@ -30,11 +30,10 @@
 
       .subscription_info_left {
         margin-top: 20px;
-        width: 55%;
+        width: 70%;
 
         .input_wrapper {
           display: block;
-          width: 90%;
 
           .input-1 {
             color: $secondary_color;
@@ -70,7 +69,6 @@
           letter-spacing: 0.4px;
           border: none;
           border-radius: 8px;
-          width: 80%;
           margin-top: 10px;
           padding: 25px 35px 100px 35px;
           resize: none;
@@ -79,7 +77,6 @@
 
       .message {
         margin-top: 20px;
-        width: 100%;
 
         .button {
           font-size: $font_sm_1;
@@ -147,7 +144,6 @@
           }
         }
         .input-3 {
-          width: 70%;
           padding: 15px 45px 80px 25px;
         }
       }
