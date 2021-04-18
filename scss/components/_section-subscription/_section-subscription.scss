@@ -7,7 +7,7 @@
   background-image: url(../img/backgrounds/abstraction.jpg);
 
   .subscription h2 {
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: $font_xlg;
     color: $first_color;
     font-weight: 700;
@@ -19,7 +19,7 @@
   .subscription p {
     padding: 40px 0px 60px 0px;
     color: $first_color;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: $font_sm_2;
     font-weight: 400;
     line-height: 28px;
@@ -34,7 +34,7 @@
   .subscription_input {
     min-width: 40%;
     color: $third_color;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: $font_sm_2;
     letter-spacing: 0.4px;
     border: none;
@@ -59,7 +59,7 @@
     border: none;
     border-radius: 5px;
     color: $first_color;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: $font_sm_3;
     font-weight: 700;
     text-transform: uppercase;

@@ -5,7 +5,7 @@
 
   h2 {
     color: $secondary_color;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: $font_xlg;
     text-transform: uppercase;
@@ -16,7 +16,7 @@
   p {
     max-width: 445px;
     color: $secondary_color;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: $font_sm_2;
     font-weight: 400;
     line-height: 28px;
@@ -44,7 +44,7 @@
 
     h3 {
       color: $secondary_color;
-      font-family: "Open Sans - Semibold";
+      font-family: "Open Sans - Semibold", sans-serif;
       font-size: 30px;
       font-weight: 400;
       text-transform: uppercase;
@@ -55,7 +55,7 @@
     p {
       max-width: 650px;
       color: $third_color;
-      font-family: "Open Sans";
+      font-family: "Open Sans", sans-serif;
       font-size: $font_sm_2;
       font-weight: 400;
       line-height: 28px;
@@ -68,7 +68,7 @@
 
     li {
       color: $third_color;
-      font-family: "Open Sans";
+      font-family: "Open Sans", sans-serif;
       font-size: $font_sm_3;
       line-height: 24px;
       letter-spacing: 0.9px;
@@ -130,7 +130,7 @@
 
       p {
         color: $first_color;
-        font-family: "Open Sans - Semibold";
+        font-family: "Open Sans - Semibold", sans-serif;
         font-size: $font_sm_3;
         font-weight: 400;
         text-align: center;

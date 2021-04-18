@@ -142,7 +142,7 @@ p {
 .section-touch .input-3, .section-touch .input_wrapper .input-2, .section-touch .input_wrapper .input-1 {
   color: #2c2c2c;
   background-color: #e5e5e5;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   letter-spacing: 0.4px;
   border: none;
@@ -155,7 +155,7 @@ p {
 }
 
 body {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
 }
 
 /*Рамки страницы*/
@@ -177,7 +177,7 @@ body {
   border-radius: 5px;
 }
 .info_link a {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   display: block;
   text-align: center;
   text-decoration: none;
@@ -201,7 +201,7 @@ body {
   width: 90%;
   background-color: #ff2d2d;
   color: #ffffff;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   padding: 20px;
   text-transform: uppercase;
   font-size: 18px;
@@ -238,7 +238,7 @@ body {
   list-style: none;
 }
 .header a {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 14px;
   color: #ffffff;
@@ -294,7 +294,7 @@ body {
   justify-content: space-between;
 }
 .section-intro h1 {
-  font-family: "Open Sans - Extrabold";
+  font-family: "Open Sans - Extrabold", sans-serif;
   font-size: 60px;
   color: #2c2c2c;
   text-transform: uppercase;
@@ -304,7 +304,7 @@ body {
   margin: 0 0 25px 0;
 }
 .section-intro p {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   color: #4c4c4c;
   font-size: 16px;
   line-height: 28px;
@@ -386,7 +386,7 @@ body {
   width: 50%;
 }
 .opportunity_colum_text h2 {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   color: #2c2c2c;
   font-size: 42px;
   font-weight: 700;
@@ -398,7 +398,7 @@ body {
 }
 .opportunity_colum_text p {
   box-sizing: border-box;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   width: 90%;
   color: #4c4c4c;
   font-size: 16px;
@@ -426,7 +426,7 @@ body {
   margin-bottom: 40px;
 }
 .opportunity_colum_grid .opportunity_colum_item h4 {
-  font-family: "Open Sans - Semibold";
+  font-family: "Open Sans - Semibold", sans-serif;
   font-style: normal;
   color: #2c2c2c;
   font-size: 24px;
@@ -434,7 +434,7 @@ body {
 }
 .opportunity_colum_grid .opportunity_colum_item p {
   color: #4c4c4c;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   line-height: 28px;
   padding-right: 50px;
 }
@@ -570,7 +570,7 @@ body {
   margin: 100px 0 0 0;
 }
 .section-product_creation .product_creation_head h2 {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   color: #2c2c2c;
   font-size: 42px;
   text-align: center;
@@ -579,7 +579,7 @@ body {
   margin: 0 0 20px 0;
 }
 .section-product_creation .product_creation_head p {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   max-width: 50%;
   color: #4c4c4c;
   font-size: 16px;
@@ -599,7 +599,7 @@ body {
   margin: 65px 0 40px 0px;
 }
 .section-product_creation li {
-  font-family: "Open Sans - Semibold";
+  font-family: "Open Sans - Semibold", sans-serif;
   list-style-type: none;
   display: inline-block;
   color: #2c2c2c;
@@ -736,7 +736,7 @@ body {
 }
 .section-our_team h2 {
   color: #2c2c2c;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 42px;
   text-transform: uppercase;
@@ -746,7 +746,7 @@ body {
 .section-our_team p {
   max-width: 445px;
   color: #2c2c2c;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -770,7 +770,7 @@ body {
 }
 .section-our_team .our_team_body_item_right h3 {
   color: #2c2c2c;
-  font-family: "Open Sans - Semibold";
+  font-family: "Open Sans - Semibold", sans-serif;
   font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
@@ -780,7 +780,7 @@ body {
 .section-our_team .our_team_body_item_right p {
   max-width: 650px;
   color: #4c4c4c;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -791,7 +791,7 @@ body {
 }
 .section-our_team .our_team_body_item_right_text_list li {
   color: #4c4c4c;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.9px;
@@ -845,7 +845,7 @@ body {
 }
 .section-our_team .right_colum .right_colum_box_top p {
   color: #ffffff;
-  font-family: "Open Sans - Semibold";
+  font-family: "Open Sans - Semibold", sans-serif;
   font-size: 18px;
   font-weight: 400;
   text-align: center;
@@ -992,7 +992,7 @@ body {
   background-image: url(../img/backgrounds/abstraction.jpg);
 }
 .section-subscription .subscription h2 {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 42px;
   color: #ffffff;
   font-weight: 700;
@@ -1003,7 +1003,7 @@ body {
 .section-subscription .subscription p {
   padding: 40px 0px 60px 0px;
   color: #ffffff;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -1016,7 +1016,7 @@ body {
 .section-subscription .subscription_input {
   min-width: 40%;
   color: #4c4c4c;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   letter-spacing: 0.4px;
   border: none;
@@ -1039,7 +1039,7 @@ body {
   border: none;
   border-radius: 5px;
   color: #ffffff;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1110,7 +1110,7 @@ body {
 }
 .section-touch .touch_haed h2 {
   color: #2c2c2c;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 42px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1120,7 +1120,7 @@ body {
 .section-touch .touch_haed p {
   max-width: 700px;
   color: #2c2c2c;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -1163,7 +1163,7 @@ body {
 }
 .section-touch .contact-info h3 {
   color: #e5e5e5;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 18px;
   text-transform: uppercase;
@@ -1173,7 +1173,7 @@ body {
 .section-touch .contact-info p {
   width: 90%;
   color: #e5e5e5;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 40px;
   padding: 0 0 0 90px;
@@ -1328,7 +1328,7 @@ footer .footer-wrapper .footer_menu li:last-child {
 }
 footer .footer-wrapper p {
   color: #e5e5e5;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   padding-top: 10px;
 }

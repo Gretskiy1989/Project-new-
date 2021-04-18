@@ -5,7 +5,7 @@
 
   .product_creation_head {
     h2 {
-      font-family: "Open Sans";
+      font-family: "Open Sans", sans-serif;
       color: $secondary_color;
       font-size: $font_xlg;
       text-align: center;
@@ -15,7 +15,7 @@
     }
 
     p {
-      font-family: "Open Sans";
+      font-family: "Open Sans", sans-serif;
       max-width: 50%;
       color: $third_color;
       font-size: $font_sm_2;
@@ -40,7 +40,7 @@
   }
 
   li {
-    font-family: "Open Sans - Semibold";
+    font-family: "Open Sans - Semibold", sans-serif;
     list-style-type: none;
     display: inline-block;
     color: $secondary_color;

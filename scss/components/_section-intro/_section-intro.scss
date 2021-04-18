@@ -10,7 +10,7 @@
   }
 
   h1 {
-    font-family: "Open Sans - Extrabold";
+    font-family: "Open Sans - Extrabold", sans-serif;
     font-size: $font-hight;
     color: $secondary_color;
     text-transform: uppercase;
@@ -21,7 +21,7 @@
   }
 
   p {
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     color: $third_color;
     font-size: $font_sm_2;
     line-height: 28px;
